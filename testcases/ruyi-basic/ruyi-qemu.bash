@@ -8,7 +8,7 @@ ruyi update
 ruyi install gnu-plct qemu-user-riscv-upstream
 
 venv_path=/tmp/rit-ruyi-basic-ruyi-qemu
-ruyi venv -t gnu-plct -e qemu-user-riscv-upstream milkv-duo "$venv_path"
+ruyi venv -t gnu-plct -e qemu-user-riscv-upstream generic "$venv_path"
 # CHECK-LABEL: info: Creating a Ruyi virtual environment at {{.*}}
 # CHECK: info: The virtual environment is now created.
 # CHECK: ruyi-deactivate
