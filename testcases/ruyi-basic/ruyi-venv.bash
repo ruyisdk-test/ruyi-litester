@@ -7,7 +7,7 @@ ruyi install gnu-plct
 
 venv_path=/tmp/rit-ruyi-basic-ruyi-venv
 # NOTE: too many debug messages
-RUYI_DEBUG= ruyi venv --toolchain gnu-plct milkv-duo "$venv_path"
+RUYI_DEBUG= ruyi venv --toolchain gnu-plct generic "$venv_path"
 # CHECK-LABEL: info: Creating a Ruyi virtual environment at {{.*}}
 # CHECK: info: The virtual environment is now created.
 # CHECK: ruyi-deactivate
