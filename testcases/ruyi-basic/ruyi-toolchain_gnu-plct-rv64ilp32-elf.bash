@@ -1,8 +1,6 @@
 # NOTE: Test ruyi gnu-plct-rv64ilp32-elf toolchain
 # RUN: bash %s 2>&1 | FileCheck %s
 
-export RUYI_DEBUG=x
-
 ruyi update
 
 ruyi install gnu-plct-rv64ilp32-elf

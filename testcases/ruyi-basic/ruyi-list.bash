@@ -1,8 +1,6 @@
 # NOTE: Test ruyi list
 # RUN: bash %s | FileCheck %s
 
-export RUYI_DEBUG=x
-
 ruyi version
 # CHECK-LABEL: Ruyi
 # CHECK: License: Apache-2.0

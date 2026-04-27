@@ -1,8 +1,6 @@
 # NOTE: Test ruyi admin
 # RUN: bash %s | FileCheck %s
 
-export RUYI_DEBUG=x
-
 tmp_path=/tmp/rit-ruyi-basic-ruyi-admin
 mkdir -p "$tmp_path"
 

@@ -4,8 +4,6 @@
 # NOTE:   are print to stderr
 # RUN: bash %s 2>&1 | FileCheck %s
 
-export RUYI_DEBUG=x
-
 ruyi update
 
 old_path=$(pwd)

@@ -1,8 +1,6 @@
 # NOTE: Test ruyi news items
 # RUN: bash %s | FileCheck %s
 
-export RUYI_DEBUG=x
-
 ruyi update
 # CHECK-LABEL: There are
 # CHECK: You can read them with ruyi news read.

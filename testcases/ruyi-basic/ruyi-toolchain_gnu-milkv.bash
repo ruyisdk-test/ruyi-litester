@@ -3,8 +3,6 @@
 #
 # RUN: bash %s | FileCheck %s
 
-export RUYI_DEBUG=
-
 ruyi update
 
 ruyi install gnu-milkv-milkv-duo-bin gnu-milkv-milkv-duo-musl-bin gnu-milkv-milkv-duo-elf-bin
